@@ -51,7 +51,7 @@ computing resources provided by the
 
 ## Getting Help {.portal-help-title}
 
-Email <dreamlab@library.ucsb.edu> or join the
+Visit the [FAQ](faq.qmd), email <dreamlab@library.ucsb.edu>, or join the
 [UCSB Carpentry Slack](https://join.slack.com/t/ucsbcarpentry/shared_invite/zt-3chxqtb2b-cVc3l~yj1ghUhZLNmOLfhQ).
 
 :::

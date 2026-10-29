@@ -4,24 +4,67 @@ project:
 
 website:
   title: "DREAM Lab Cloud Services"
+  announcement:
+    position: above-navbar
+    dismissable: false
+    content: "[University of California, Santa Barbara](https://www.ucsb.edu/){target=\"_blank\" rel=\"noopener noreferrer\"} [Launch Coder ↗](https://coder.dreamlab.ucsb.edu){.launch-button target=\"_blank\" rel=\"noopener noreferrer\"}"
   navbar:
+    logo: images/ucsb-library-logo.png
+    logo-alt: "UC Santa Barbara Library"
+    title: false
     left:
-      - text: Coder Workspaces
+      - text: "Home"
+        href: index.qmd
+      - text: "Coder Workspaces"
+        href: coder.qmd
+      - text: "Guides"
         menu:
-        - text: Overview
-          href: coder.qmd
-        - text: "---"
-        - text: Getting Started
-          href: guides/getting-started.qmd
-        - text: Transferring Files
-          href: guides/file-transfer.qmd
-        - text: "---"
-        - text: RStudio
-          href: guides/rstudio.qmd
-        - text: Marimo Notebooks
-          href: guides/marimo.qmd
-        - text: Using AI Coding Agents
-          href: guides/ai-agents.qmd
+          - text: "Getting Started"
+            href: guides/getting-started.qmd
+          - text: "Transferring Files"
+            href: guides/file-transfer.qmd
+          - text: "---"
+          - text: "RStudio"
+            href: guides/rstudio.qmd
+          - text: "Marimo Notebooks"
+            href: guides/marimo.qmd
+          - text: "Using AI Coding Agents"
+            href: guides/ai-agents.qmd
+          - text: "UCSB AI Commons API"
+            href: guides/ucsb_ai_commons.md
+      - text: "AI Gateway"
+        href: guides/ai-gateway.qmd
+      - text: "FAQ"
+        href: faq.qmd
+      - text: "About the DREAM Lab ↗"
+        href: https://www.library.ucsb.edu/dreamlab
+  page-footer:
+    left: |
+      **DREAM Lab Cloud Services**
+
+      Digital Research Excellence, Access, Methods, and learning
+    center: |
+      **Contact & Support**
+
+      UCSB Library  
+      University of California  
+      Santa Barbara, CA 93106-9010
+
+      [dreamlab@library.ucsb.edu](mailto:dreamlab@library.ucsb.edu)  
+      [UCSB Carpentry Slack ↗](https://join.slack.com/t/ucsbcarpentry/shared_invite/zt-3chxqtb2b-cVc3l~yj1ghUhZLNmOLfhQ){target="_blank" rel="noopener noreferrer"}
+    right:
+      - text: "UCSB Library ↗"
+        href: https://www.library.ucsb.edu/
+      - text: "About the DREAM Lab ↗"
+        href: https://www.library.ucsb.edu/dreamlab
+      - text: "Letters & Science IT (LSIT) ↗"
+        href: https://www.lsit.ucsb.edu
+      - text: "Coder Workspaces"
+        href: coder.qmd
+      - text: "AI Gateway"
+        href: guides/ai-gateway.qmd
+      - text: "FAQ"
+        href: faq.qmd
 
 
 format:
@@ -30,6 +73,9 @@ format:
       - cosmo
       - dreamlab-theme.scss
     toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-expand: true
 
 execute:
   freeze: auto
