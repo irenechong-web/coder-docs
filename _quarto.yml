@@ -26,8 +26,9 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - dreamlab-theme.scss
     toc: true
 
 execute:
